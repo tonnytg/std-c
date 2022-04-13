@@ -13,13 +13,9 @@ char *ft_strstr(char *str, char *to_find)
             i++;
             j++;
             if (to_find[j] == '\0')
-            {
                 return (&str[i - j]);
-            }
             if (str[i] != to_find[j])
-            {
                 j = 0;
-            }
         }
         i++;
     }
