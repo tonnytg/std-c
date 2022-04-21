@@ -41,7 +41,7 @@ int main()
     char *copy;
 
     copy = ft_malloc(name);
-    printf("before free:%s\n", copy);
+    printf("before free: %s\n", copy);
     free(copy);
-    printf("after free:%s\n", copy);
+    printf("after free: %s\n", copy);
 }
