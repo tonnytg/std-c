@@ -21,7 +21,7 @@ int main(void)
     a = 3;
     b = 9;
 
-    printf("Valor de a: %ad\n", a);
+    printf("Valor de a: %d\n", a);
     printf("Valor de b: %d\n", b);
 
     printf("Posição memoria a: %p\n", &a);
